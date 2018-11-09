@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="main()">
+    <canvas id="rect" width="400" height="400">
+        你的浏览器不支持canvas
+    </canvas>
+    <script>
+        function main() {
+          var canvas = document.getElementById('rect')
+          if(!canvas){
+            console.log('没有该元素')
+            return;
+          }
+          var ctx = canvas.getContext('2d')
+          ctx.fillStyle = 'rgba(0,0,255,1)' //设置填充颜色
+          ctx.fillRect(120, 10, 150, 150) //使用填充颜色填充矩形
+        }
+    </script>
+</body>
+</html>
