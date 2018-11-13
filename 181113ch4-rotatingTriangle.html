@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body  onload="main()">
+<canvas id="webgl" width="400" height="400">
+    你的浏览器不支持canvas
+</canvas>
+<script src="lib/webgl-utils.js"></script>
+<script src="lib/webgl-debug.js"></script>
+<script src="lib/cuon-utils.js"></script>
+<script src="lib/cuon-matrix.js"></script>
+<script>
+  //顶点着色器程序
+  var VSHADER_SOURCE = `
+    attribute vec4 a_Position;
+    uniform mat4 u_xformMatrix;
+    void main(){
+      gl_Position = u_xformMatrix*a_Position;
+    }
+  `
+  //片元着色器程序
+  var FSHADER_SOURCE = `
+    void main(){
+       gl_FragColor = vec4(1, 1 ,0.0, 1.0);
+    }
+  `
+  var ANGLE_STEP = 45.0;
+  function main() {
+    var canvas = document.getElementById('webgl')
+    var gl = getWebGLContext(canvas)
+    if(!gl){
+      console.log('没有该元素')
+      return;
+    }
+    
+    if(!initShaders(gl, VSHADER_SOURCE, FSHADER_SOURCE)){
+      console.log('fail init shaders')
+      return;
+    }
+
+    //设置顶点位置
+    var n = initVertextBuffers(gl);
+
+    var xformMaxtrix = new Matrix4();
+    
+    
+    var u_xformMatrix = gl.getUniformLocation(gl.program, 'u_xformMatrix')
+    
+    
+    var currentAngle = 0.0;
+    var tick = function(){
+      currentAngle = animate(currentAngle)
+      draw(gl, n, currentAngle, xformMaxtrix, u_xformMatrix)
+      requestAnimationFrame(tick)
+    }
+    tick();
+
+  }
+  function draw(gl, n, currentAngle, xformMaxtrix, u_xformMatrix) {
+    xformMaxtrix.setRotate(currentAngle, 0, 0, 1)
+    xformMaxtrix.translate(0.35, 0, 0)
+    gl.uniformMatrix4fv(u_xformMatrix, false, xformMaxtrix.elements)
+    gl.clearColor(0,0,0,1)
+    gl.clear(gl.COLOR_BUFFER_BIT)
+    gl.drawArrays(gl.TRIANGLES, 0, n)
+  }
+  var g_last = Date.now();
+  function animate(angle){
+    var now = Date.now()
+    var elapsed = now - g_last;
+    g_last = now;
+    var newAngle = angle + ANGLE_STEP*(elapsed/1000)
+    return newAngle %= 360;
+  }
+  function initVertextBuffers(gl) {
+    var verticies = new Float32Array([0.0, 0.5, -0.5,-0.5, 0.5, -0.5])
+    var n = 3;
+    
+    //创建缓冲区对象
+    var vertextBuffer = gl.createBuffer()
+    if(!vertextBuffer){
+      console.log('fail to create the buffer object')
+    }
+    
+    //将缓冲区对象绑定到目标
+    gl.bindBuffer(gl.ARRAY_BUFFER, vertextBuffer)
+    
+    //向缓冲区对象中写入数据
+    gl.bufferData(gl.ARRAY_BUFFER, verticies, gl.STATIC_DRAW)
+
+    //获取attribute变量的存储位置
+    var a_Position = gl.getAttribLocation(gl.program, 'a_Position');
+    
+    //将缓冲区对象分配给a_Position变量
+    gl.vertexAttribPointer(a_Position, 2, gl.FLOAT, false, 0, 0)
+    
+    //连接a_Position变量与分配给他的缓冲区对象
+    gl.enableVertexAttribArray(a_Position)
+    return n;
+  }
+</script>
+</body>
+</html>
