@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaa3348a-4193-4390-821b-321de3096189" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/181114ch5-ColorTriangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181114ch5-multiAttributeColor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181114ch5-multiTexture.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181114ch5-texturedQuad.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181114ch5-texturedQuad_Repeat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/3objects.mqo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/7herbs.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/blueflower.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/blueflower2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/circle.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/cube.mqo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/cube.mtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/cube.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/kaeru.mqo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lightblueflower.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/numbers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/orange.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/parasol.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/particle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/pinkflower.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/redflower.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sky.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sky_cloud.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sky_roof.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sphere.mqo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/vase.mqo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/yellowflower.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aaa3348a-4193-4390-821b-321de3096189" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -46,7 +17,7 @@
       <file leaf-file-name="181114ch5-texturedQuad.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/181114ch5-texturedQuad.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="1152">
               <caret line="64" selection-start-line="64" selection-end-line="67" selection-end-column="25" />
             </state>
           </provider>
@@ -55,7 +26,7 @@
       <file leaf-file-name="181114ch5-texturedQuad_Repeat.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/181114ch5-texturedQuad_Repeat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="1854">
               <caret line="103" column="16" lean-forward="true" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
             </state>
           </provider>
@@ -70,11 +41,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redflower.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/redflower.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
       <file leaf-file-name="181114ch5-ColorTriangle.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/181114ch5-ColorTriangle.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,7 +53,7 @@
       <file leaf-file-name="cuon-utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/cuon-utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="900">
               <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
             </state>
           </provider>
@@ -244,23 +210,24 @@
       <workItem from="1542076579287" duration="15137000" />
       <workItem from="1542158703706" duration="543000" />
       <workItem from="1542173759107" duration="13811000" />
+      <workItem from="1542190523836" duration="71000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64025000" />
+    <option name="totallyTimeSpent" value="64096000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1984" y="1" width="1769" height="1047" extended-state="0" />
+    <frame x="1984" y="1" width="1769" height="1047" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2923166" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2923166" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35682818" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35682818" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -279,6 +246,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/181114ch5-texturedQuad_Repeat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1854">
+          <caret line="103" column="16" lean-forward="true" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181114ch5-ColorTriangle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cuon-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181114ch5-multiTexture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="115" column="33" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/181113ch5-multiAttributeSize_interleaved.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
@@ -559,7 +554,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/cuon-utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="900">
           <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
         </state>
       </provider>
@@ -571,15 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/cube.mtl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/7herbs.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sky.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/181114ch5-multiAttributeColor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -589,14 +575,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/181114ch5-texturedQuad.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="1152">
           <caret line="64" selection-start-line="64" selection-end-line="67" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/181114ch5-texturedQuad_Repeat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="1854">
           <caret line="103" column="16" lean-forward="true" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
         </state>
       </provider>
@@ -607,9 +593,6 @@
           <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/redflower.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/181114ch5-multiTexture.html">
       <provider selected="true" editor-type-id="text-editor">
