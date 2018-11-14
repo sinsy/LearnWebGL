@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body  onload="main()">
+<canvas id="webgl" width="400" height="400">
+    你的浏览器不支持canvas
+</canvas>
+<script src="lib/webgl-utils.js"></script>
+<script src="lib/webgl-debug.js"></script>
+<script src="lib/cuon-utils.js"></script>
+<script>
+  //顶点着色器程序
+  var VSHADER_SOURCE = `
+    attribute vec4 a_Position;
+    attribute vec2 a_TexCoord;
+    varying vec2 v_TexCoord; //varying变量，从顶点着色器传入片元着色器
+    void main(){
+      gl_Position = a_Position;
+      v_TexCoord = a_TexCoord;
+    }
+  `
+  //片元着色器程序
+  var FSHADER_SOURCE = `
+    precision mediump float;
+    uniform sampler2D u_Sampler;
+    varying vec2 v_TexCoord;
+    void main(){
+       gl_FragColor = texture2D(u_Sampler, v_TexCoord);
+    }
+  `
+  function main() {
+    var canvas = document.getElementById('webgl')
+    var gl = getWebGLContext(canvas)
+    if(!gl){
+      console.log('没有该元素')
+      return;
+    }
+    
+    if(!initShaders(gl, VSHADER_SOURCE, FSHADER_SOURCE)){
+      console.log('fail init shaders')
+      return;
+    }
+
+    //设置顶点位置
+    var n = initVertextBuffers(gl);
+    if(n<0){
+      console.log('fail to set n')
+      return
+    }
+    if(initTextures(gl, n)){
+    
+    }
+    // gl.clearColor(0,0,0,.1)
+    // gl.clear(gl.COLOR_BUFFER_BIT)
+    // gl.drawArrays(gl.POINTS, 0, n)
+   //gl.drawArrays(gl.TRIANGLES, 0, n) //渐变三角形效果
+
+  }
+
+  function initVertextBuffers(gl) {
+    var verticiesSizes = new Float32Array([
+      -0.5, 0.5, -0.3,1.7,
+      -0.5,-0.5, -0.3,-0.2,
+      0.5, 0.5,  1.7,1.7,
+      0.5, -0.5, 1.7,-0.2,
+    ])
+    var n =4;
+    
+    //创建缓冲区对象
+    var vertextTexCoordBuffer = gl.createBuffer()
+    if(!vertextTexCoordBuffer){
+      console.log('fail to create the buffer object')
+    }
+    
+    //将缓冲区对象绑定到目标
+    gl.bindBuffer(gl.ARRAY_BUFFER, vertextTexCoordBuffer)
+    //向缓冲区对象中写入数据
+    gl.bufferData(gl.ARRAY_BUFFER, verticiesSizes, gl.STATIC_DRAW)
+
+    var FSIZE = verticiesSizes.BYTES_PER_ELEMENT;//每一个元素的大小
+    console.log(FSIZE)
+    //获取attribute变量的存储位置
+    var a_Position = gl.getAttribLocation(gl.program, 'a_Position');
+    gl.vertexAttribPointer(a_Position, 2, gl.FLOAT, false, FSIZE*4, 0) //FSIZE*3:取前两个数,
+    gl.enableVertexAttribArray(a_Position)
+
+    var a_TexCoord = gl.getAttribLocation(gl.program, 'a_TexCoord');
+    gl.vertexAttribPointer(a_TexCoord, 2, gl.FLOAT, false, FSIZE*4, FSIZE*2) // FSIZE*3,FSIZE*2:取第三个
+    gl.enableVertexAttribArray(a_TexCoord)
+    return n;
+  }
+  
+  function initTextures(gl, n){
+    var texture = gl.createTexture()
+    var u_Sampler = gl.getUniformLocation(gl.program, 'u_Sampler')
+    var image = new Image()
+    image.onload = function () {
+      loadTexture(gl, n, texture, u_Sampler, image)
+    }
+    image.src = 'resources/sky.jpg'
+    return true;
+  }
+  
+  function loadTexture(gl, n, texture, u_Sampler, image){
+    gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, 1) //对纹理图像进行y轴反转，必须要有
+    gl.activeTexture(gl.TEXTURE0) //开启0号纹理单元
+    gl.bindTexture(gl.TEXTURE_2D, texture) //绑定纹理对象
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR) //配置纹理参数
+
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE) //s 轴（水平）填充最边缘的颜色
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.MIRRORED_REPEAT) //t轴（垂直） 重复填充
+
+    gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, gl.RGB, gl.UNSIGNED_BYTE, image) //配置微离图片
+    gl.uniform1i(u_Sampler, 0) //将0号纹理传递给着色器中的变量
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, n)
+  }
+</script>
+</body>
+</html>

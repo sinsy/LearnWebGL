@@ -2,17 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaa3348a-4193-4390-821b-321de3096189" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/181112ch3-TranslatedTriangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181112ch3-rotateTriangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181113ch3-rotateTranslatedTriangle_matrix.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181113ch3-rotateTriangle_matrix.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181113ch3-scaleTriangle_matrix.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181113ch4-rotateTranslatedTriangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181113ch4-rotatingTriangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181113ch5-multiAttributeSize.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181113ch5-multiAttributeSize_interleaved.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/181114ch5-ColorTriangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/181114ch5-multiAttributeColor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/181114ch5-multiTexture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/181114ch5-texturedQuad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/181114ch5-texturedQuad_Repeat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/3objects.mqo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/7herbs.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/blueflower.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/blueflower2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/circle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/cube.mqo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/cube.mtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/cube.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/kaeru.mqo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lightblueflower.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/numbers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/orange.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/parasol.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/particle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/pinkflower.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/redflower.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sky.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sky_cloud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sky_roof.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sphere.mqo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/vase.mqo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/yellowflower.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进度" beforeDir="false" afterPath="$PROJECT_DIR$/进度" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,20 +43,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="181113ch5-multiAttributeSize_interleaved.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/181113ch5-multiAttributeSize_interleaved.html">
+      <file leaf-file-name="181114ch5-texturedQuad.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/181114ch5-texturedQuad.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="76" column="84" selection-start-line="76" selection-start-column="84" selection-end-line="76" selection-end-column="84" />
+            <state relative-caret-position="204">
+              <caret line="64" selection-start-line="64" selection-end-line="67" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="进度" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/进度">
+      <file leaf-file-name="181114ch5-texturedQuad_Repeat.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/181114ch5-texturedQuad_Repeat.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="103" column="16" lean-forward="true" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="181114ch5-multiTexture.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/181114ch5-multiTexture.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="115" column="33" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redflower.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/redflower.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="181114ch5-ColorTriangle.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/181114ch5-ColorTriangle.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cuon-utils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/cuon-utils.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -59,9 +108,17 @@
       <find>initShaders</find>
       <find>setRotate</find>
       <find>setTranslate</find>
+      <find>getShaderInfoLog</find>
+      <find>vertextSizeBuffer</find>
+      <find>a_TextCoord</find>
+      <find>u_Sampler</find>
+      <find>v_TexCoord</find>
+      <find>a_TexCoord</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>vertextTexCoordBuffer</replace>
+      <replace>u_Sampler0</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Administrator\Desktop\webGL\lib</dir>
@@ -93,6 +150,13 @@
         <option value="$PROJECT_DIR$/181113multiAttributeSize.html" />
         <option value="$PROJECT_DIR$/181113ch5-multiAttributeSize_interleaved.html" />
         <option value="$PROJECT_DIR$/进度" />
+        <option value="$PROJECT_DIR$/181114ch5-colorTriangle.html" />
+        <option value="$PROJECT_DIR$/181114ch5-ColorTriangle.html" />
+        <option value="$PROJECT_DIR$/lib/cuon-utils.js" />
+        <option value="$PROJECT_DIR$/181114ch5-multiAttributeColor.html" />
+        <option value="$PROJECT_DIR$/181114ch5-texturedQuad.html" />
+        <option value="$PROJECT_DIR$/181114ch5-texturedQuad_Repeat.html" />
+        <option value="$PROJECT_DIR$/181114ch5-multiTexture.html" />
       </list>
     </option>
   </component>
@@ -102,9 +166,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2251" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1984" />
+    <option name="y" value="1" />
     <option name="width" value="1769" />
     <option name="height" value="1047" />
   </component>
@@ -114,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,18 +188,19 @@
             <path>
               <item name="webGL" type="b2602c69:ProjectViewProjectNode" />
               <item name="webGL" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/custom-front-cli3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebGL编程指南/WebGL_Guide_Code" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -177,25 +241,26 @@
       <workItem from="1541814480744" duration="16333000" />
       <workItem from="1541985722622" duration="3522000" />
       <workItem from="1541993548109" duration="4237000" />
-      <workItem from="1542076579287" duration="14464000" />
+      <workItem from="1542076579287" duration="15137000" />
+      <workItem from="1542158703706" duration="543000" />
+      <workItem from="1542173759107" duration="13811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48998000" />
+    <option name="totallyTimeSpent" value="64025000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2251" y="20" width="1769" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="1984" y="1" width="1769" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08954362" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2923166" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35682818" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35682818" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -214,6 +279,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/181113ch5-multiAttributeSize_interleaved.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="76" column="84" selection-start-line="76" selection-start-column="84" selection-end-line="76" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/进度">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181113ch5-multiAttributeSize_interleaved.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="76" column="84" selection-start-line="76" selection-start-column="84" selection-end-line="76" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/进度">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/181112ch3-TranslatedTriangle.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -309,13 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cuon-utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -426,14 +512,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/webgl-utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2769">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-2769" />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
@@ -457,17 +536,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/181113ch5-multiAttributeSize_interleaved.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="76" column="84" selection-start-line="76" selection-start-column="84" selection-end-line="76" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/进度">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181113ch5-multiAttributeSize_interleaved.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181114ch5-ColorTriangle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cuon-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181114ch5-ColorTriangle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/cube.mtl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/7herbs.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sky.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181114ch5-multiAttributeColor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="62" selection-start-line="62" selection-end-line="64" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181114ch5-texturedQuad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="64" selection-start-line="64" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181114ch5-texturedQuad_Repeat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="103" column="16" lean-forward="true" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebGL编程指南/WebGL_Guide_Code/ch05/MultiTexture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/redflower.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181114ch5-multiTexture.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="115" column="33" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
         </state>
       </provider>
     </entry>
