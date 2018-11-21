@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaa3348a-4193-4390-821b-321de3096189" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/181121ch7-coloredCube.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181121ch7-coloredCube_single.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181121ch7-depthBuffer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181121ch7-helloCube.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181121ch7-perspectView_mvp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181121ch7-perspectView_mvpMatrix.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181121ch7-zfighting.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/进度" beforeDir="false" afterPath="$PROJECT_DIR$/进度" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,24 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="181121ch7-perspectView_mvpMatrix.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/181121ch7-perspectView_mvpMatrix.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="181121ch7-depthBuffer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/181121ch7-depthBuffer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="68" column="68" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="181121ch7-zfighting.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/181121ch7-zfighting.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,65 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="181121ch7-helloCube.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/181121ch7-helloCube.html">
+      <file leaf-file-name="进度" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/进度">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-306">
-              <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="181121ch7-coloredCube.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/181121ch7-coloredCube.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-636">
-              <caret line="79" column="37" lean-forward="true" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="181121ch7-coloredCube_single.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/181121ch7-coloredCube_single.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="id_rsa" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.ssh/id_rsa">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="id_rsa.pub" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/.ssh/id_rsa.pub">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="webgl-utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/webgl-utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2526">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Zfighting.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../WebGL编程指南/WebGL_Guide_Code/ch07/Zfighting.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="60" column="60" lean-forward="true" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+            <state relative-caret-position="90">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -197,7 +119,6 @@
         <option value="$PROJECT_DIR$/181120ch7-LookAtTriangleWithKeys_halfSize.html" />
         <option value="$PROJECT_DIR$/../WebGL编程指南/WebGL_Guide_Code/ch07/PerspectiveView.js" />
         <option value="$PROJECT_DIR$/181120ch7-perspectView.html" />
-        <option value="$PROJECT_DIR$/进度" />
         <option value="$PROJECT_DIR$/181121ch7-perspectView_mvp.html" />
         <option value="$PROJECT_DIR$/181121ch7-perspectView_mvpMatrix.html" />
         <option value="$PROJECT_DIR$/181121ch7-depthBuffer.html" />
@@ -206,6 +127,7 @@
         <option value="$PROJECT_DIR$/181121ch7-helloCube.html" />
         <option value="$PROJECT_DIR$/181121ch7-coloredCube.html" />
         <option value="$PROJECT_DIR$/181121ch7-coloredCube_single.html" />
+        <option value="$PROJECT_DIR$/进度" />
       </list>
     </option>
   </component>
@@ -216,8 +138,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2018" />
-    <option name="y" value="6" />
+    <option name="x" value="2141" />
+    <option name="y" value="3" />
     <option name="width" value="1769" />
     <option name="height" value="1047" />
   </component>
@@ -294,15 +216,15 @@
       <workItem from="1542332147096" duration="10737000" />
       <workItem from="1542612976683" duration="1964000" />
       <workItem from="1542680459540" duration="14547000" />
-      <workItem from="1542763482348" duration="13899000" />
+      <workItem from="1542763482348" duration="15092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110409000" />
+    <option name="totallyTimeSpent" value="111602000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2018" y="6" width="1769" height="1047" extended-state="0" />
+    <frame x="2141" y="3" width="1769" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79623824" visible="true" weight="0.2351242" />
@@ -604,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/进度">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/181121ch7-perspectView_mvp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -632,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/181121ch7-zfighting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/webgl-utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2526">
@@ -647,13 +555,6 @@
             <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/181121ch7-perspectView_mvpMatrix.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -671,10 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/181121ch7-coloredCube_single.html">
+    <entry file="file://$USER_HOME$/.ssh/id_rsa.pub">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -685,8 +586,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.ssh/id_rsa.pub">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/181121ch7-coloredCube_single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181121ch7-perspectView_mvpMatrix.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181121ch7-zfighting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/进度">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
