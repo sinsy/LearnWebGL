@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaa3348a-4193-4390-821b-321de3096189" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/181122ch7-lightedCube.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181122ch7-lightedCube_ambient.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181122ch7-lightedTranslatedRotaedCube.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181122ch7-pointLightedCube.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/181122ch7-pointLightedCube_perFragment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,8 +22,26 @@
       <file leaf-file-name="181122ch7-pointLightedCube_perFragment.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/181122ch7-pointLightedCube_perFragment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="414">
+              <caret line="140" selection-start-line="140" selection-end-line="145" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="181122ch7-pointLightedCube.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/181122ch7-pointLightedCube.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="181122ch7-lightedTranslatedRotaedCube.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/181122ch7-lightedTranslatedRotaedCube.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="129" selection-start-line="129" selection-end-line="134" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -142,7 +155,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2018" />
+    <option name="x" value="2146" />
     <option name="width" value="1769" />
     <option name="height" value="1047" />
   </component>
@@ -220,15 +233,15 @@
       <workItem from="1542612976683" duration="1964000" />
       <workItem from="1542680459540" duration="14547000" />
       <workItem from="1542763482348" duration="16165000" />
-      <workItem from="1542849615103" duration="12351000" />
+      <workItem from="1542849615103" duration="12527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125026000" />
+    <option name="totallyTimeSpent" value="125202000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2018" y="0" width="1769" height="1047" extended-state="0" />
+    <frame x="2146" y="0" width="1769" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79623824" visible="true" weight="0.2351242" />
@@ -599,22 +612,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/181122ch7-lightedTranslatedRotaedCube.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="112" column="20" lean-forward="true" selection-end-line="192" selection-end-column="7" />
+        <state relative-caret-position="366">
+          <caret line="129" selection-start-line="129" selection-end-line="134" selection-end-column="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/181122ch7-pointLightedCube.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
+        <state relative-caret-position="576">
           <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/181122ch7-pointLightedCube_perFragment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="414">
+          <caret line="140" selection-start-line="140" selection-end-line="145" selection-end-column="69" />
         </state>
       </provider>
     </entry>
