@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaa3348a-4193-4390-821b-321de3096189" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/181129ch9-MultiJointMode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/181129ch9-MultiJointMode_segment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/181129ch9-jointMode.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/181122ch8-pointLightedCube.html" beforeDir="false" afterPath="$PROJECT_DIR$/181122ch8-pointLightedCube.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,54 +22,90 @@
     <favorites_list name="webGL" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="181122ch7-pointLightedCube_perFragment.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/181122ch7-pointLightedCube_perFragment.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="140" selection-start-line="140" selection-end-line="145" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="181122ch7-pointLightedCube.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/181122ch7-pointLightedCube.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="181122ch7-lightedTranslatedRotaedCube.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/181122ch7-lightedTranslatedRotaedCube.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="129" selection-start-line="129" selection-end-line="134" selection-end-column="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.47028422">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="181129ch9-MultiJointMode.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/181129ch9-MultiJointMode.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="67" column="19" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#204#210#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cuon-utils.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lib/cuon-utils.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="312">
+                  <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="181129ch9-MultiJointMode_segment.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/181129ch9-MultiJointMode_segment.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="36">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
+                  <folding>
+                    <element signature="e#204#210#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="MultiJointModel.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../WebGL编程指南/WebGL_Guide_Code/ch09/MultiJointModel.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="612">
+                  <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MultiJointModel_segment.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../WebGL编程指南/WebGL_Guide_Code/ch09/MultiJointModel_segment.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                  <folding>
+                    <element signature="e#291#297#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MultiJointModel_segment.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../WebGL编程指南/WebGL_Guide_Code/ch09/MultiJointModel_segment.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="139">
+                  <caret line="303" column="50" selection-start-line="310" selection-start-column="9" selection-end-line="310" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getWebGLContext</find>
-      <find>initShaders</find>
-      <find>setRotate</find>
-      <find>setTranslate</find>
-      <find>getShaderInfoLog</find>
-      <find>a_TextCoord</find>
-      <find>u_Sampler</find>
-      <find>v_TexCoord</find>
-      <find>a_TexCoord</find>
       <find>uniform</find>
       <find>vertextSizeBuffer</find>
       <find>verticiesSizes</find>
@@ -77,6 +117,25 @@
       <find>u_LightDirection</find>
       <find>u_NormalMatrix</find>
       <find>lightDirection</find>
+      <find>clearGrid</find>
+      <find>create</find>
+      <find>xAxis</find>
+      <find>roundRect</find>
+      <find>padding</find>
+      <find>g_mvpMatrix</find>
+      <find>handleSelectAll</find>
+      <find>g_normalMatrix</find>
+      <find>arm1Length</find>
+      <find>drawBox</find>
+      <find>g_joint1Angle</find>
+      <find>g_joint2Angle</find>
+      <find>g_arm1Angle</find>
+      <find>g_baseBuffer</find>
+      <find>a_Position</find>
+      <find>drawSegment</find>
+      <find>a_Position;</find>
+      <find>pushMatrix</find>
+      <find>initShaders</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -96,15 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/canvas.html" />
-        <option value="$PROJECT_DIR$/helloCanvas.html" />
-        <option value="$PROJECT_DIR$/181109drawRect.html" />
-        <option value="$PROJECT_DIR$/181109helloCanvas.html" />
-        <option value="$PROJECT_DIR$/181109helloPoint.html" />
-        <option value="$PROJECT_DIR$/181109helloPoint2.html" />
-        <option value="$PROJECT_DIR$/181110clickedPoints.html" />
-        <option value="$PROJECT_DIR$/181110coloredPoints.html" />
-        <option value="$PROJECT_DIR$/181110multiPoints.html" />
         <option value="$PROJECT_DIR$/181110helloRectangle.html" />
         <option value="$PROJECT_DIR$/181112TranslatedTriangle.html" />
         <option value="$PROJECT_DIR$/181110helloTriangle.html" />
@@ -145,6 +195,17 @@
         <option value="$PROJECT_DIR$/181122ch7-lightedTranslatedRotaedCube.html" />
         <option value="$PROJECT_DIR$/181122ch7-pointLightedCube.html" />
         <option value="$PROJECT_DIR$/181122ch7-pointLightedCube_perFragment.html" />
+        <option value="$PROJECT_DIR$/charts.js" />
+        <option value="$PROJECT_DIR$/canvas.html" />
+        <option value="$PROJECT_DIR$/canvas.js" />
+        <option value="$PROJECT_DIR$/charts.html" />
+        <option value="$PROJECT_DIR$/181122ch8-pointLightedCube.html" />
+        <option value="$PROJECT_DIR$/iview.html" />
+        <option value="$PROJECT_DIR$/../WebGL编程指南/WebGL_Guide_Code/ch09/JointModel.js" />
+        <option value="$PROJECT_DIR$/181129ch9-jointMode.html" />
+        <option value="$PROJECT_DIR$/../WebGL编程指南/WebGL_Guide_Code/ch09/MultiJointModel_segment.html" />
+        <option value="$PROJECT_DIR$/181129ch9-MultiJointMode_segment.html" />
+        <option value="$PROJECT_DIR$/181129ch9-MultiJointMode.html" />
       </list>
     </option>
   </component>
@@ -155,7 +216,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2146" />
+    <option name="x" value="2310" />
+    <option name="y" value="4" />
     <option name="width" value="1769" />
     <option name="height" value="1047" />
   </component>
@@ -165,7 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,16 +234,22 @@
               <item name="webGL" type="b2602c69:ProjectViewProjectNode" />
               <item name="webGL" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webGL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webGL" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/项目/print-frontend20181016-01" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -233,25 +300,34 @@
       <workItem from="1542612976683" duration="1964000" />
       <workItem from="1542680459540" duration="14547000" />
       <workItem from="1542763482348" duration="16165000" />
-      <workItem from="1542849615103" duration="12527000" />
+      <workItem from="1542849615103" duration="13676000" />
+      <workItem from="1542935915255" duration="1285000" />
+      <workItem from="1543022385546" duration="1199000" />
+      <workItem from="1543197573013" duration="5797000" />
+      <workItem from="1543282520096" duration="710000" />
+      <workItem from="1543368185726" duration="2428000" />
+      <workItem from="1543454003903" duration="1926000" />
+      <workItem from="1543458477815" duration="16144000" />
+      <workItem from="1543540874483" duration="5901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125202000" />
+    <option name="totallyTimeSpent" value="161741000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2146" y="0" width="1769" height="1047" extended-state="0" />
+    <frame x="2281" y="4" width="1769" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79623824" visible="true" weight="0.2351242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79623824" visible="true" weight="0.10571924" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2973568" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.12995595" />
       <window_info id="Favorites" order="2" sideWeight="0.20376176" side_tool="true" weight="0.2351242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -260,7 +336,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,104 +345,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/181109helloCanvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/181109helloPoint.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/181110multiPoints.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="79" column="7" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/181109helloPoint2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/181113ch3-rotateTriangle_matrix.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/181113ch3-scaleTriangle_matrix.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/181112ch3-TranslatedTriangle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/181113ch4-rotateTranslatedTriangle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12442" column="3" lean-forward="true" selection-start-line="12442" selection-start-column="3" selection-end-line="12442" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/181113ch5-multiAttributeSize.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="50" selection-start-line="50" selection-end-line="80" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/181113ch4-rotatingTriangle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="72" column="31" lean-forward="true" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/181113ch5-multiAttributeSize_interleaved.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/181114ch5-ColorTriangle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cuon-utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/181114ch5-texturedQuad.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1152">
@@ -529,17 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/webgl-utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2526">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/181121ch7-helloCube.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
@@ -596,38 +562,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/181122ch7-lightedCube.html">
+    <entry file="file://$PROJECT_DIR$/181122ch8-lightedCube.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/181122ch7-lightedCube_ambient.html">
+    <entry file="file://$PROJECT_DIR$/181122ch8-lightedCube_ambient.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/181122ch7-lightedTranslatedRotaedCube.html">
+    <entry file="file://$PROJECT_DIR$/181122ch8-lightedTranslatedRotaedCube.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
+        <state relative-caret-position="2322">
           <caret line="129" selection-start-line="129" selection-end-line="134" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/181122ch7-pointLightedCube.html">
+    <entry file="file://$PROJECT_DIR$/181122ch8-pointLightedCube_perFragment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+        <state relative-caret-position="180">
+          <caret line="149" column="27" lean-forward="true" selection-start-line="149" selection-start-column="27" selection-end-line="149" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/181122ch7-pointLightedCube_perFragment.html">
+    <entry file="file://$PROJECT_DIR$/charts.js" />
+    <entry file="file://$PROJECT_DIR$/canvas.html" />
+    <entry file="file://$PROJECT_DIR$/charts.html" />
+    <entry file="file://$PROJECT_DIR$/canvas.js" />
+    <entry file="file://$PROJECT_DIR$/181122ch8-pointLightedCube.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="140" selection-start-line="140" selection-end-line="145" selection-end-column="69" />
+        <state relative-caret-position="1566">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iview.html" />
+    <entry file="file://$PROJECT_DIR$/../WebGL编程指南/WebGL_Guide_Code/ch09/JointModel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="85" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebGL编程指南/WebGL_Guide_Code/ch09/JointModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="177" column="21" selection-start-line="188" selection-start-column="43" selection-end-line="188" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181129ch9-jointMode.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="166" column="58" lean-forward="true" selection-start-line="166" selection-start-column="58" selection-end-line="166" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebGL编程指南/WebGL_Guide_Code/ch09/MultiJointModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebGL编程指南/WebGL_Guide_Code/ch09/MultiJointModel_segment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="303" column="50" selection-start-line="310" selection-start-column="9" selection-end-line="310" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/webgl-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181129ch9-MultiJointMode_segment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#204#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebGL编程指南/WebGL_Guide_Code/ch09/MultiJointModel_segment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#291#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/181129ch9-MultiJointMode.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="67" column="19" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="19" />
+          <folding>
+            <element signature="e#204#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cuon-utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
         </state>
       </provider>
     </entry>

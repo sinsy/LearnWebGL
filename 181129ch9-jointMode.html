@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
-  <script src="../WebGL编程指南/WebGL_Guide_Code/ch09/JointModel.js"></script>
 </head>
 <body onload="main()">
 <canvas id="webgl" width="400" height="400">
   你的浏览器不支持canvas
 </canvas>
+<p>&larr;&rarr;: arm1 rotation(y-axis), &uarr;&darr;: joint1 rotation(z-axis)</p>
 <script src="lib/webgl-utils.js"></script>
 <script src="lib/webgl-debug.js"></script>
 <script src="lib/cuon-utils.js"></script>
@@ -22,32 +22,38 @@
     uniform mat4 u_MvpMatrix;
     uniform mat4 u_ModelMatrix; //模型矩阵
     attribute vec4 a_Color;
+
     varying vec4 v_Color; //varying变量，从顶点着色器传入片元着色器
-    uniform vec3 u_LightColor; //光线颜色
-    uniform vec3 u_LightPosition; //光源位置
-    uniform vec3 u_AmbientLight; //环境光颜色
+    varying vec3 v_Normal;
+    varying vec3 v_Position;
     void main(){
       gl_Position = u_MvpMatrix * a_Position;
-      //对法向量进行归一化
-      vec3 normal = normalize(vec3(u_NormalMatrix * a_Normal));
-      
-      //计算顶点世界做表
-      vec4 vertexPosition = u_ModelMatrix * a_Position;
-      vec3 lightDirection = normalize(u_LightPosition - vec3(vertexPosition));
-      //计算光线方向和法向量的点积
-      float nDotL = max(dot(lightDirection, normal), 0.0);
-      //计算漫反射光的颜色
-      vec3 diffuse = u_LightColor * a_Color.rgb * nDotL;
-      vec3 ambient = u_AmbientLight * a_Color.rgb;
-      v_Color = vec4(diffuse+ambient, a_Color.a);
+      v_Position = vec3(u_ModelMatrix * a_Position);
+      v_Normal = normalize(vec3(u_NormalMatrix * a_Normal));
+      v_Color = a_Color;
     }
   `
   //片元着色器程序
   var FSHADER_SOURCE = `
     precision mediump float;
+    uniform vec3 u_LightColor; //光线颜色
+    uniform vec3 u_LightPosition; //光源位置
+    uniform vec3 u_AmbientLight; //环境光颜色
     varying vec4 v_Color;
+    varying vec3 v_Normal;
+    varying vec3 v_Position;
     void main(){
-       gl_FragColor = v_Color;
+    
+      //对法向量进行归一化
+      vec3 normal = normalize(v_Normal);
+      //计算顶点世界做表
+      vec3 lightDirection = normalize(u_LightPosition - v_Position);
+      //计算光线方向和法向量的点积
+      float nDotL = max(dot(lightDirection, normal), 0.0);
+      //计算漫反射光的颜色
+      vec3 diffuse = u_LightColor * v_Color.rgb * nDotL;
+      vec3 ambient = u_AmbientLight * v_Color.rgb;
+      gl_FragColor = vec4(diffuse+ambient, v_Color.a);
     }
   `
   function main() {
@@ -85,30 +91,18 @@
     var u_LightPosition = gl.getUniformLocation(gl.program, 'u_LightPosition')
     gl.uniform3f(u_LightPosition, 2.3,4.0, 3.5)
 
-    //模型矩阵
-    var u_ModelMatrix = gl.getUniformLocation(gl.program, 'u_ModelMatrix')
-    var modelMatrix = new Matrix4()
-    modelMatrix.rotate(90, 0,1,0)
-    gl.uniformMatrix4fv(u_ModelMatrix, false, modelMatrix.elements)
+
+    var viewProjMatrix = new Matrix4()
+    viewProjMatrix.setPerspective(50.0, canvas.width/canvas.height, 1.0, 100.0)
+    viewProjMatrix.lookAt(20.0,10.0,30.0, 0.0,0.0,0.0, 0.0,1.0,0.0)
     
     //模型视图投影矩阵
     var u_MvpMatrix = gl.getUniformLocation(gl.program, 'u_MvpMatrix')
-    var mvpMatrix = new Matrix4() //模型视图投影矩阵
-    mvpMatrix.setPerspective(30, canvas.width/canvas.height, 1, 100)
-    mvpMatrix.lookAt(6,6,14, 0,0,0, 0,1,0)
-    mvpMatrix.multiply(modelMatrix)
-    gl.uniformMatrix4fv(u_MvpMatrix, false, mvpMatrix.elements)
-
     //根据模型矩阵计算变化法向量矩阵
     var u_NormalMatrix = gl.getUniformLocation(gl.program, 'u_NormalMatrix')
-    var normalMatrix = new Matrix4() //模型视图投影矩阵
-    normalMatrix.setInverseOf(modelMatrix)
-    normalMatrix.transpose()
-    gl.uniformMatrix4fv(u_NormalMatrix, false, normalMatrix.elements)
+    draw(gl, n, viewProjMatrix, u_MvpMatrix, u_NormalMatrix);  // Draw the robot arm
 
-    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT)
-    gl.drawElements(gl.TRIANGLES, n, gl.UNSIGNED_BYTE, 0) //绘制立方体
-
+    document.onkeydown = function(ev){ keydown(ev, gl, n, viewProjMatrix, u_MvpMatrix, u_NormalMatrix); };
 
 
   }
@@ -123,12 +117,12 @@
     //  |/      |/
     //  v2------v3
     var vertices = new Float32Array([   // Vertex coordinates 相比其他的扩大两倍
-      2.0, 2.0, 2.0,  -2.0, 2.0, 2.0,  -2.0,-2.0, 2.0,   2.0,-2.0, 2.0, // v0-v1-v2-v3 front
-      2.0, 2.0, 2.0,   2.0,-2.0, 2.0,   2.0,-2.0,-2.0,   2.0, 2.0,-2.0, // v0-v3-v4-v5 right
-      2.0, 2.0, 2.0,   2.0, 2.0,-2.0,  -2.0, 2.0,-2.0,  -2.0, 2.0, 2.0, // v0-v5-v6-v1 up
-      -2.0, 2.0, 2.0,  -2.0, 2.0,-2.0,  -2.0,-2.0,-2.0,  -2.0,-2.0, 2.0, // v1-v6-v7-v2 left
-      -2.0,-2.0,-2.0,   2.0,-2.0,-2.0,   2.0,-2.0, 2.0,  -2.0,-2.0, 2.0, // v7-v4-v3-v2 down
-      2.0,-2.0,-2.0,  -2.0,-2.0,-2.0,  -2.0, 2.0,-2.0,   2.0, 2.0,-2.0  // v4-v7-v6-v5 back
+      1.5, 10.0, 1.5, -1.5, 10.0, 1.5, -1.5,  0.0, 1.5,  1.5,  0.0, 1.5, // v0-v1-v2-v3 front
+      1.5, 10.0, 1.5,  1.5,  0.0, 1.5,  1.5,  0.0,-1.5,  1.5, 10.0,-1.5, // v0-v3-v4-v5 right
+      1.5, 10.0, 1.5,  1.5, 10.0,-1.5, -1.5, 10.0,-1.5, -1.5, 10.0, 1.5, // v0-v5-v6-v1 up
+      -1.5, 10.0, 1.5, -1.5, 10.0,-1.5, -1.5,  0.0,-1.5, -1.5,  0.0, 1.5, // v1-v6-v7-v2 left
+      -1.5,  0.0,-1.5,  1.5,  0.0,-1.5,  1.5,  0.0, 1.5, -1.5,  0.0, 1.5, // v7-v4-v3-v2 down
+      1.5,  0.0,-1.5, -1.5,  0.0,-1.5, -1.5, 10.0,-1.5,  1.5, 10.0,-1.5  // v4-v7-v6-v5 back
     ]);
 
     // Colors
@@ -193,6 +187,52 @@
     // Enable the assignment of the buffer object to the attribute variable
     gl.enableVertexAttribArray(a_attribute);
     return true;
+  }
+  var ANGLE_STEP = 3.0;    // The increments of rotation angle (degrees)
+  var g_arm1Angle = -90.0; // The rotation angle of arm1 (degrees)
+  var g_joint1Angle = 0.0; // The rotation angle of joint1 (degrees)
+  // Coordinate transformation matrix
+  var g_modelMatrix = new Matrix4(), g_mvpMatrix = new Matrix4(), g_normalMatrix = new Matrix4();
+  function draw(gl, n, viewProjMatrix, u_MvpMatrix, u_NormalMatrix){
+    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT)
+    // Coordinate transformation matrix
+    var arm1Length = 10.0;
+    g_modelMatrix.setTranslate(0.0, -12.0, 0.0)
+    g_modelMatrix.rotate(g_arm1Angle, 0.0, 1.0, 0.0)
+    drawBox(gl, n, viewProjMatrix, u_MvpMatrix, u_NormalMatrix)
+    
+    //arm2
+    g_modelMatrix.translate(0.0, arm1Length, 0.0)
+    g_modelMatrix.rotate(g_joint1Angle, 0.0, 0.0, 1.0)
+    g_modelMatrix.scale(1.3, 1.0, 1.3);
+    drawBox(gl, n, viewProjMatrix, u_MvpMatrix, u_NormalMatrix)
+  }
+  function drawBox(gl, n, viewProjMatrix, u_MvpMatrix, u_NormalMatrix) {
+    g_mvpMatrix.set(viewProjMatrix)
+    g_mvpMatrix.multiply(g_modelMatrix)
+    gl.uniformMatrix4fv(u_MvpMatrix, false, g_mvpMatrix.elements)
+    g_normalMatrix.setInverseOf(g_modelMatrix)
+    g_normalMatrix.transpose()
+    gl.uniformMatrix4fv(u_NormalMatrix, false, g_normalMatrix.elements)
+    gl.drawElements(gl.TRIANGLES, n, gl.UNSIGNED_BYTE, 0)
+  }
+  function keydown(ev, gl, n, viewProjMatrix, u_MvpMatrix, u_NormalMatrix){
+    switch (ev.keyCode){
+      case 38: // Up arrow key -> the positive rotation of joint1 around the z-axis
+        if (g_joint1Angle < 135.0) g_joint1Angle += ANGLE_STEP;
+        break;
+      case 40: // Down arrow key -> the negative rotation of joint1 around the z-axis
+        if (g_joint1Angle > -135.0) g_joint1Angle -= ANGLE_STEP;
+        break;
+      case 39: // Right arrow key -> the positive rotation of arm1 around the y-axis
+        g_arm1Angle = (g_arm1Angle + ANGLE_STEP) % 360;
+        break;
+      case 37: // Left arrow key -> the negative rotation of arm1 around the y-axis
+        g_arm1Angle = (g_arm1Angle - ANGLE_STEP) % 360;
+        break;
+      default: return; // Skip drawing at no effective action
+    }
+    draw(gl, n, viewProjMatrix, u_MvpMatrix, u_NormalMatrix);
   }
 </script>
 </body>
